@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>formularz email</title>
+    </head>
+    <body>
+        <!-- podlinkowanie emaila -->
+        <form action="https://formspree.io/f/xnqrvwwg" method="post">
+            <!-- imie -->
+            <label for="name">Imię</label>
+            <input type="text" name="name" id="name" placeholder="Imie"><br><br>
+            <!-- nzwisko -->
+            <label for="surname">Nazwisko</label>
+            <input type="text" name="surname" id="surname" placeholder="Nazwisko"><br><br>
+            <!-- email -->
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email"><br><br>
+            <!-- telefon -->
+            <label for="telephone">Telefon</label>
+            <input type="tel" name="tel" id="tel" placeholder="Telefon"><br><br>
+            <!-- płeć -->
+            <label for="gender">Płeć</label>
+            <select name="select" id="select">
+                <option value="męrzczyzna">Mężczyzna</option>
+                <option value="Kobieta">Kobieta</option><br><br>
+            </select>
+            <!-- zgoda -->
+            <br><br><label for="agree">Zgoda</label>
+            <input type="checkbox" name="agree" id="agree" required>
+            <a href="3.html">Regulamn</a><br><br>
+            <!-- komentarze -->
+            <label for="mess">Twój komentarz</label>
+            <textarea name="mess" id="mess" maxlength="1000"></textarea>
+            <!-- wystłanie -->
+            <input type="submit" value="wyślij"><br><br>
+            <!-- powrut -->
+            <a href="index.html">Powrót</a>
+         </form>
+    </body>
+</html>

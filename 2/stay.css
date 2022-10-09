@@ -1,0 +1,40 @@
+body {
+    background-color: darkgrey;
+    
+}
+header{
+    text-align: center;
+    font-size: 35px;
+    background-color: cadetblue;
+    margin: auto;
+    margin: auto;
+
+}
+#oddziałka{
+    background-color: cadetblue;
+
+}
+#mustang{
+    text-align: center;
+
+}
+#mclaren{
+    text-align: center;
+
+}
+#lexus{
+    text-align: center;
+
+}
+#astonmartin{
+    text-align: center;
+
+}
+#tojota{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: cadetblue ;
+
+}
