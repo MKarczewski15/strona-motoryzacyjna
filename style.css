@@ -1,0 +1,25 @@
+body{
+    background-color: darkgray;
+}
+
+#oddziałka{
+    background-color: cadetblue;
+    float: none;
+    margin: auto;
+    font-size: 48px;
+
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+form #name, #surname, #email, #tel{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    float: initial;
+}

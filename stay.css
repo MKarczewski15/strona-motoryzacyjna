@@ -1,0 +1,86 @@
+body {
+    background-color: darkgrey;
+    font-size: 48px;
+    
+}
+
+header{
+    text-align: center;
+    font-size: 35px;
+    background-color: cadetblue;
+    margin: auto;
+    float: none;
+
+}
+
+#nav-scrol{
+    float: left;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+li a{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    text-align: center;
+    font-size: 1,2em;
+    width: 240px;
+    height: 100px;
+    text-decoration: none;
+    color: darkgray;
+    background-color: cadetblue;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+#oddziałka{
+    background-color: cadetblue;
+    margin-top: auto;
+
+}
+
+h3{
+    background-color: cadetblue;
+
+}
+
+#mustang{
+    text-align: center;
+
+}
+
+#mclaren{
+    text-align: center;
+
+}
+
+#lexus{
+    text-align: center;
+
+}
+
+#astonmartin{
+    text-align: center;
+
+}
+
+#tojota{
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    background-color: cadetblue ;
+
+}
+
+
